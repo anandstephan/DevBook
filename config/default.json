@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://anand:1234567890@cluster0.a63nv.mongodb.net/devConnector?retryWrites=true&w=majority",
+    "JWTSecret":"iloveyou3000"
+}
