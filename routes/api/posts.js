@@ -9,6 +9,7 @@ const Profile = require('../../models/Profie')
 // @route Post api/posts
 // @desc  Create a Post
 // @access Private
+
 router.post('/',[auth,[
     body('text','Text is required').not().isEmpty()
 ]], async (req,res) =>{

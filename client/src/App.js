@@ -7,8 +7,13 @@ import Register from './auth/Register';
 import Landing from './components/layouts/Landing';
 import Navbar from './components/layouts/Navbar';
 
+//Redux
+import {Provider} from 'react-redux'
+import store from './store'
+
 const App = ()=> {
   return (
+    <Provider store={store}>
     <Fragment>
       <Router>
     <Navbar/>
@@ -21,6 +26,7 @@ const App = ()=> {
     </section>
     </Router>
     </Fragment>
+    </Provider>
   );
 }
 

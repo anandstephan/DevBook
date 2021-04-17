@@ -1,5 +1,5 @@
 import React, { Fragment,useState } from 'react'
-import {Link,to} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Login = () => {
 
